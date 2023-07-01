@@ -4,7 +4,33 @@ Chapter 03 - Laying the Foundation
 Q. What is JSX?
 => JSX is JavaScript XML which allows us to write HTML-like code in JS and place them in DOM without using createElement and appendChild methods.
 
-Ex: 
+Ex: Without using JSX
+const element = React.createElement("h1", {}, "Hello, I am not using JSX!");
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(element);
+
+Ex: Using JSX
+const element = <h1>I am Using JSX</h1>;
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(element);
+
 
 Q. Superpowers of JSX
+=> 1. It allows us to write HTML-like code inside JS
+   2. JavaScript expressions can be used inside JSX with curly braces "{}"
+
+Ex: const element = <h1>{10 + 5}</h1>
+
+Q. Role of type attribute in a script tag? What options can I use there?
+=> Type attribute is used to identify the type of script tag and content between them 
+
+  Different type attribute in <script></script> tag:
+  1. module
+  2. text/javascript
+  3. text/ecmascript
+  4. text/babel
+
+Q. {TitleComponent} vs {<TitleComponent/>} vs {<TitleComponent></TitleComponent>} in JSX
 => 
+
+
