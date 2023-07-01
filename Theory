@@ -1,2 +1,10 @@
 Namaste React Course by Akshay Saini
 Chapter 03 - Laying the Foundation
+
+Q. What is JSX?
+=> JSX is JavaScript XML which allows us to write HTML-like code in JS and place them in DOM without using createElement and appendChild methods.
+
+Ex: 
+
+Q. Superpowers of JSX
+=> 
